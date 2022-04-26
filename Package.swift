@@ -211,7 +211,7 @@ let package = Package(
       ],
       path: "Sources/FirebaseInAppMessaging",
       resources: [
-        .copy("Resources/InAppMessagingDisplayResources.bundle")
+        .copy("Resources")
       ]
     ),
     .target(
